@@ -24,7 +24,10 @@ def numeric(num):
         senha.append(itens[randint(0, len(itens))])
     for e in senha:    
         print(e, end='')
+        
+        
 print('GERADOR DE SENHAS')
+
 while True:
     try:
         print('ASCII -> 1')
